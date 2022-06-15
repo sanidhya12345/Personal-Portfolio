@@ -41,7 +41,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background-color: #222;
+  background-image:url('./back.jpg');
   overflow-x: hidden;
   padding-left: 35rem;
 }
@@ -337,6 +337,8 @@ header .navbar ul li a:hover {
   text-transform: none;
   font-size: 1.7rem;
   width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
 }
 
 .contact .row form .box::placeholder {
